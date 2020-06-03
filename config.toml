@@ -30,42 +30,42 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   [[menu.header]]
   name = "Distro"
-  URL = "/#distro"
+  URL = "https://REMnux.org/#distro"
   weight = 2
 
   [[menu.header]]
   name = "Containers"
-  URL = "/#containers"
+  URL = "https://REMnux.org/#containers"
   weight = 3
 
   [[menu.header]]
   name = "People"
-  URL = "/#people"
+  URL = "https://REMnux.org/#people"
   weight = 4
 
   [[menu.header]]
   name = "Docs"
-  URL = "/#docs"
+  URL = "https://REMnux.org/#docs"
   weight = 5
 
   [[menu.footer]]
   name = "Distro"
-  URL = "/#distro"
+  URL = "https://REMnux.org/#distro"
   weight = 2
 
   [[menu.footer]]
   name = "Containers"
-  URL = "/#containers"
+  URL = "https://REMnux.org/#containers"
   weight = 3
 
   [[menu.footer]]
   name = "People"
-  URL = "/#people"
+  URL = "https://REMnux.org/#people"
   weight = 4
 
   [[menu.footer]]
   name = "Docs"
-  URL = "/#docs"
+  URL = "https://REMnux.org/#docs"
   weight = 5
 
 [params]
