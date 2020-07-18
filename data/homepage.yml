@@ -63,7 +63,7 @@ people:
   items:
     - name: "Lenny Zeltser"
       year: "From 2010"
-      role: "Founder, Maintainer"
+      role: "Founder, Primary Maintainer"
       link: "https://zeltser.com"
 
     - name: "Corey Forman"
