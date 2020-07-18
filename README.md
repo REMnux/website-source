@@ -1,1 +1,0 @@
-This repository contains the source code of the [REMnux.org](https://REMnux.org) website. It's designed to be built using [Hugo](https://gohugo.io), with the generated files placed in the [remnux.github.io](https://github.com/REMnux/remnux.github.io) repository, so they are automatically published using [GitHub Pages](https://pages.github.com).
