@@ -1,0 +1,121 @@
+showcase:
+  enable: true
+  subtitle: "REMnux: A Linux Toolkit for Malware Analysis"
+  description: "REMnux&reg; is a Linux toolkit for reverse-engineering and analyzing malicious software. REMnux provides a curated collection of free tools created by the community. Analysts can use it to investigate malware without having to find, install, and configure the tools."
+  image:
+    alt: "REMnux keyboard and mouse image"
+    x: "img/showcase.png"
+    _2x: "img/showcase@2x.png"
+  imageMobile:
+    alt: "REMnux keyboard and mouse image"
+    x: "img/showcase-mobile.jpg"
+  socialLinks:
+    - icon: "twitter"
+      URL: "https://twitter.com/REMnux"
+    - icon: "facebook"
+      URL: "https://www.facebook.com/REMnux"
+    - icon: "github"
+      URL: "https://github.com/REMnux"
+
+distro:
+  title: "Get the REMnux Distro"
+  enable: true
+  works:
+    - title: "Download the REMnux VM"
+      description: "The easiest way to get the REMnux distro is to download the REMnux virtual machine in the OVA format, then import it into your hypervisor."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Download"
+        URL: "/docs/distro/get/"
+      image:
+          x: "img/distro-install.jpg"
+          _2x: "img/distro-install@2x.jpg"
+      is_even: false
+
+    - title: "Add REMnux to a System"
+      description: "You can also install the distro from scratch on a dedicated host or add it to an existing system running a compatible version of Ubuntu."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Instructions"
+        URL: "/docs/distro/get/"
+      image:
+        x: "img/works/distro-add.jpg"
+        _2x: "img/distro-add@2x.jpg"
+      is_even: true
+
+containers:
+  enable: true
+  title: "Containers"
+  content: '<p class="lead">
+  The REMnux toolkit also offers Docker images of popular malware analysis tools, making it possible to run the them as containers without having to install the tools directly on the system.
+    </p>'
+  button:
+    icon: "icon-arrow-right"
+    btnText: "Details"
+    URL: "/docs/containers/malware-analysis/"
+  image:
+    x: "img/containers.jpg"
+    _2x: "img/containers@2x.jpg"
+
+people:
+  enable: true
+  title: "People"
+  items:
+    - name: "Lenny Zeltser"
+      year: "From 2010"
+      role: "Founder, Maintainer"
+      link: "https://zeltser.com"
+
+    - name: "Corey Forman"
+      year: "From 2020"
+      role: "Contributor"
+      link: "https://github.com/digitalsleuth"
+
+    - name: "Erik Kristensen"
+      year: "From 2017"
+      role: "Architect, Advisor"
+      link: "https://github.com/ekristen"
+
+    - name: "Tool Authors"
+      year: "Throughout Epoch Time"
+      role: "Community Members"
+      link: "#"
+
+docs:
+  enable: true
+  title: "Documentation"
+  content: '<p class="lead">
+  For details about installing, using, and contributing to REMnux, as well as for information about the tools included in the toolkit, please see the REMnux documentation site.
+    </p>'
+  button:
+    icon: "icon-arrow-right"
+    btnText: "Read"
+    URL: "/docs"
+  image:
+    x: "img/docs.jpg"
+    _2x: "img/docs@2x.jpg"      
+
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"

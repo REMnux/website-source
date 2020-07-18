@@ -1,0 +1,84 @@
+baseURL = "https://remnux.org/"
+languageCode = "en-us"
+theme = "raditian"
+title = "REMnux: A Linux Toolkit for Malware Analysts"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "Distro"
+  URL = "https://REMnux.org/#distro"
+  weight = 2
+
+  [[menu.header]]
+  name = "Containers"
+  URL = "https://REMnux.org/#containers"
+  weight = 3
+
+  [[menu.header]]
+  name = "People"
+  URL = "https://REMnux.org/#people"
+  weight = 4
+
+  [[menu.header]]
+  name = "Docs"
+  URL = "https://REMnux.org/#docs"
+  weight = 5
+
+  [[menu.footer]]
+  name = "Distro"
+  URL = "https://REMnux.org/#distro"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Containers"
+  URL = "https://REMnux.org/#containers"
+  weight = 3
+
+  [[menu.footer]]
+  name = "People"
+  URL = "https://REMnux.org/#people"
+  weight = 4
+
+  [[menu.footer]]
+  name = "Docs"
+  URL = "https://REMnux.org/#docs"
+  weight = 5
+
+[params]
+
+  sections = ["showcase", "distro", "containers", "people", "docs", "testimonial"]
+
+  [params.logo]
+    text1 = "REMnux"
+    text2 = "Toolkit"
+
+  [params.footer]
+      copyright = "Content © 2010-2020 Zeltser Security Corp. All rights reserved."
+      [params.footer.radity_logo]
+        x = "img/general/design-and-code-radity.png"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Design & Code - Radity"

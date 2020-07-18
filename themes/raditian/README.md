@@ -1,0 +1,1 @@
+This directory contains the [Hugo](https://gohugo.io) theme for the [REMnux](https://REMnux.org) website. The theme is heavily based on the free [Raditian theme](https://github.com/radity/raditian-free-hugo-theme) by [Radity](https://radity.com).
