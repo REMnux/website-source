@@ -79,7 +79,7 @@ people:
     - name: "Tool Authors"
       year: "Throughout Epoch Time"
       role: "Community Members"
-      link: "https://docs.remnux.org/discover-the-tools/"
+      link: "https://docs.remnux.org/behind-the-scenes/people#tool-authors"
 
 docs:
   enable: true
