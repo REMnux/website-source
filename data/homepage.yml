@@ -26,7 +26,7 @@ distro:
       button:
         icon: "icon-arrow-right"
         btnText: "Download"
-        URL: "/docs/distro/get/"
+        URL: "https://docs.remnux.org/install-distro/get-virtual-appliance"
       image:
           x: "img/distro-install.jpg"
           _2x: "img/distro-install@2x.jpg"
@@ -37,7 +37,7 @@ distro:
       button:
         icon: "icon-arrow-right"
         btnText: "Instructions"
-        URL: "/docs/distro/get/"
+        URL: "https://docs.remnux.org/install-distro/install-from-scratch"
       image:
         x: "img/works/distro-add.jpg"
         _2x: "img/distro-add@2x.jpg"
@@ -47,12 +47,12 @@ containers:
   enable: true
   title: "Containers"
   content: '<p class="lead">
-  The REMnux toolkit also offers Docker images of popular malware analysis tools, making it possible to run the them as containers without having to install the tools directly on the system.
+  The REMnux toolkit also offers Docker images of popular malware analysis tools, making it possible to run the them as containers without having to install the tools directly on the system. You can even run the REMnux distro as a container.
     </p>'
   button:
     icon: "icon-arrow-right"
     btnText: "Details"
-    URL: "/docs/containers/malware-analysis/"
+    URL: "https://docs.remnux.org/run-tools-in-containers/remnux-containers"
   image:
     x: "img/containers.jpg"
     _2x: "img/containers@2x.jpg"
@@ -79,18 +79,18 @@ people:
     - name: "Tool Authors"
       year: "Throughout Epoch Time"
       role: "Community Members"
-      link: "#"
+      link: "https://docs.remnux.org/discover-the-tools/"
 
 docs:
   enable: true
   title: "Documentation"
   content: '<p class="lead">
-  For details about installing, using, and contributing to REMnux, as well as for information about the tools included in the toolkit, please see the REMnux documentation site.
+  For details about installing, using, and contributing to REMnux, as well as for information about the tools included in the toolkit, see the REMnux documentation site.
     </p>'
   button:
     icon: "icon-arrow-right"
     btnText: "Read"
-    URL: "/docs"
+    URL: "https://docs.remnux.org/"
   image:
     x: "img/docs.jpg"
     _2x: "img/docs@2x.jpg"      
