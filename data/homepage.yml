@@ -22,7 +22,7 @@ distro:
   enable: true
   works:
     - title: "Download the REMnux VM"
-      description: "The easiest way to get the REMnux distro is to download the REMnux virtual machine in the OVA format, then import it into your hypervisor."
+      description: "The easiest way to get the REMnux distro is to download the REMnux virtual machine, then import it into your hypervisor."
       button:
         icon: "icon-arrow-right"
         btnText: "Download"
