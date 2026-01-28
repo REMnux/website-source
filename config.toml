@@ -77,7 +77,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     text2 = "Toolkit"
 
   [params.footer]
-      copyright = "Content © 2010-2020 Zeltser Security Corp. All rights reserved."
+      copyright = "Content © 2010-2026 Zeltser Security Corp. All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
