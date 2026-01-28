@@ -39,7 +39,7 @@ distro:
         btnText: "Instructions"
         URL: "https://docs.remnux.org/install-distro/install-from-scratch"
       image:
-        x: "img/works/distro-add.jpg"
+        x: "img/distro-add.jpg"
         _2x: "img/distro-add@2x.jpg"
       is_even: true
 
