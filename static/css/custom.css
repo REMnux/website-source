@@ -1,1 +1,4 @@
 /* You can customize theme styles here */
+#questions .education__degree a {
+  text-decoration: underline;
+}

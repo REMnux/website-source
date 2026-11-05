@@ -119,3 +119,30 @@ testimonial:
       image:
         x: "img/testimonials/antonio-willis.jpg"
         _2x: "img/testimonials/antonio-willis@2x.jpg"
+questions:
+  enable: true
+  title: "Frequently Asked Questions"
+  items:
+    - question: 'What is REMnux?'
+      answer: 'REMnux is a free Linux toolkit for reverse-engineering and analyzing malicious software. It includes <a href="https://docs.remnux.org/discover-the-tools/examine+static+properties">hundreds of community-created tools</a> in one Ubuntu-based toolkit, so analysts can examine malware without finding, installing, and configuring each tool themselves.'
+
+    - question: 'How do I get REMnux?'
+      answer: 'Download the <a href="https://docs.remnux.org/install-distro/get-virtual-appliance">REMnux virtual appliance</a> and import it into your hypervisor. You can also <a href="https://docs.remnux.org/install-distro/install-from-scratch">install REMnux on a fresh Ubuntu system</a>, <a href="https://docs.remnux.org/install-distro/add-to-existing-system">add it to one you already use</a>, <a href="https://docs.remnux.org/install-distro/run-remnux-on-aws">launch it on AWS</a>, or <a href="https://docs.remnux.org/install-distro/remnux-as-a-container">run it as a Docker container</a>.'
+
+    - question: 'Is there a REMnux ISO?'
+      answer: 'No. REMnux is available as a virtual appliance and as an installer for Ubuntu. You can also <a href="https://docs.remnux.org/install-distro/add-to-existing-system">add REMnux to an existing system</a> based on a compatible version of Ubuntu.'
+
+    - question: 'What is the default password?'
+      answer: 'On a <a href="https://docs.remnux.org/install-distro/get-virtual-appliance">default REMnux installation</a>, the username is "remnux" and the password is "malware".'
+
+    - question: 'Does REMnux run on Apple M-series Macs?'
+      answer: 'Yes. REMnux has <a href="https://docs.remnux.org/install-distro/get-virtual-appliance">arm64 builds</a> for Apple M-series Macs and other ARM systems. A few tools run only on Intel and AMD systems, and the documentation lists an alternative for each.'
+
+    - question: 'How do I update REMnux?'
+      answer: 'Run <a href="https://docs.remnux.org/install-distro/keep-the-distro-up-to-date">&quot;remnux install&quot;</a>. The command updates the REMnux tools and the operating system, and the same command installs REMnux on a new system.'
+
+    - question: 'Can AI agents use REMnux?'
+      answer: 'Yes. The <a href="https://docs.remnux.org/tips/using-ai">REMnux MCP server</a> lets AI assistants run the toolkit''s tools and interpret their results.'
+
+    - question: 'How is REMnux licensed?'
+      answer: 'REMnux is free. The code and configuration behind the toolkit are licensed under the <a href="https://docs.remnux.org/behind-the-scenes/license">GNU GPL v3.0</a>, and each tool has its own license.'

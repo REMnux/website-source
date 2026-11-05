@@ -48,6 +48,11 @@ disableKinds = ["taxonomy"]
   URL = "https://REMnux.org/#docs"
   weight = 5
 
+  [[menu.header]]
+  name = "FAQ"
+  URL = "https://REMnux.org/#questions"
+  weight = 6
+
   [[menu.footer]]
   name = "Distro"
   URL = "https://REMnux.org/#distro"
@@ -68,9 +73,14 @@ disableKinds = ["taxonomy"]
   URL = "https://REMnux.org/#docs"
   weight = 5
 
+  [[menu.footer]]
+  name = "FAQ"
+  URL = "https://REMnux.org/#questions"
+  weight = 6
+
 [params]
 
-  sections = ["showcase", "distro", "containers", "people", "docs", "testimonial"]
+  sections = ["showcase", "distro", "containers", "people", "docs", "questions", "testimonial"]
 
   [params.logo]
     text1 = "REMnux"

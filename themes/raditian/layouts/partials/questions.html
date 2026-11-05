@@ -1,0 +1,37 @@
+{{ if .Site.Data.homepage.questions.enable }}
+<section class="section rad-animation-group" id="questions">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.questions.title }}</h2>
+                <div class="row pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.questions.items }}
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="education">
+                            <div class="education__title">{{ .question }}</div>
+                            <div class="education__degree">
+                                {{ .answer | safeHTML }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $item := .Site.Data.homepage.questions.items }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $item.question | jsonify | safeJS }},
+      "acceptedAnswer": {"@type": "Answer", "text": {{ $item.answer | plainify | htmlUnescape | jsonify | safeJS }}}
+    }{{ end }}
+  ]
+}
+</script>
+{{ end }}
